@@ -13,8 +13,8 @@ public class ClassWithVariables
     public string characterName = "Faedra";
     public string race = "Dark Elf";
     public string characterClass = "Rogue";
-    public string int characterLevel = 20;
-    public string int characterHP = 2000
+    public int characterLevel = 20;
+    public int characterHP = 2000;
 }
 
 public class ClassWithFunctions
@@ -25,6 +25,6 @@ public class ClassWithFunctions
         Console.WriteLine("There once was a Dark Elf");
         Console.WriteLine("Her name was Faedra");
         Console.WriteLine("She liked being a Dark Elf");
-        Console.WriteLine("But she didn't like her name");
+        Console.WriteLine("But not her name");
     }
 }   
