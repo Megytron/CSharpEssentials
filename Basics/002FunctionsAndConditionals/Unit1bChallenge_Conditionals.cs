@@ -9,13 +9,13 @@ public class Program
 		myOperator = new Operations();
 		
 		Console.WriteLine("Welcome");
-		myOperator.DoMath(10, 4);
-		myOperator.DoMath(20, 7);
-		myOperator.DoMath(30, 15);
-		myOperator.Compare(4,3);
-		myOperator.Compare(3,4);
-		myOperator.CheckPassword("SevenOF9");
-		myOperator.CheckPassword("OU812");
+		myOperator.DoMath(13, 11);
+		myOperator.DoMath(25, 69);
+		myOperator.DoMath(420, 76);
+		myOperator.Compare(14, 80);
+		myOperator.Compare(9, 3);
+		myOperator.CheckPassword("Nikkip143");
+		myOperator.CheckPassword("RavenHarley456321");
 	}
 }
 
@@ -26,15 +26,15 @@ public class Operations {
 	}
 	
 	public void Compare (int value, int value2) {
-		if(value > value2) {
-			Console.WriteLine("True, the first greater.");
+		if(value < value2) {
+			Console.WriteLine("True, the first is less than.");
 		} else {
-			Console.WriteLine("False, the second is greater.");
+			Console.WriteLine("False, the second is less than.");
 		}
 	}
 	
 	public void CheckPassword (string password) {
-		if(password == "OU812") {
+		if(password == "RavenHarley456321") {
 			Console.WriteLine("Correct Password");
 		} else {
 			Console.WriteLine("Incorrect Password");	
